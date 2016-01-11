@@ -18,3 +18,7 @@ github_username:  yamass
 markdown: kramdown
 
 # defaults
+
+
+
+gems : ['jekyll-video-tag']

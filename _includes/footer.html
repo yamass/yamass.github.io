@@ -29,4 +29,58 @@
 
   </div>
 
+  <script src="/lib/jquery-2.2.0.min.js"></script>
+  <script src="/lib/mediaelement.js/mediaelement-and-player.min.js"></script>
+  <link rel="stylesheet" href="/lib/mediaelement.js/mediaelementplayer.css" />
+
+  <script>
+
+    $('video').each(function() {
+      new MediaElement(this, {
+        // shows debug errors on screen
+        enablePluginDebug: false,
+        // remove or reorder to change plugin priority
+        plugins: ['flash','silverlight'],
+        // specify to force MediaElement to use a particular video or audio type
+        type: '',
+        // path to Flash and Silverlight plugins
+        pluginPath: '/lib/mediaelement.js/',
+        // name of flash file
+        flashName: 'flashmediaelement.swf',
+        // name of silverlight file
+        silverlightName: 'silverlightmediaelement.xap',
+        // default if the <video width> is not specified
+        defaultVideoWidth: 480,
+        // default if the <video height> is not specified
+        defaultVideoHeight: 270,
+        // overrides <video width>
+        pluginWidth: -1,
+        // overrides <video height>
+        pluginHeight: -1,
+        // rate in milliseconds for Flash and Silverlight to fire the timeupdate event
+        // larger number is less accurate, but less strain on plugin->JavaScript bridge
+        timerRate: 250,
+        // method that fires when the Flash or Silverlight object is ready
+        success: function (mediaElement, domObject) {
+
+          // add event listener
+          mediaElement.addEventListener('timeupdate', function(e) {
+
+            document.getElementById('current-time').innerHTML = mediaElement.currentTime;
+
+          }, false);
+
+          // call the play method
+          mediaElement.play();
+
+        },
+        // fires when a problem is detected
+        error: function () {
+
+        }
+      })
+    });
+
+  </script>
+
 </footer>
