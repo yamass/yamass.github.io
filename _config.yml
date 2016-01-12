@@ -19,6 +19,3 @@ markdown: kramdown
 
 # defaults
 
-
-
-gems : ['jekyll-video-tag']
