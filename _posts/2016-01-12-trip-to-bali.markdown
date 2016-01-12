@@ -6,7 +6,7 @@ categories: travel
 ---
 I arrived in Bali yesterday. I actually wanted to go to New Zealand but things went a little different than what I had planned.
 
-h4. Long (!!!) story (with many sub-stories) short:
+### Long (!!!) story (with many sub-stories) short:
 
 * From Istandbul I took the flight with China Southern Airlines to Urumqi (China).
 * Then (again China Southern Airlines) to Guangzhou 
@@ -32,7 +32,7 @@ h4. Long (!!!) story (with many sub-stories) short:
 * 20:34: Well, uhm... I got the confirmation from the australian immigration authority for my ETA. Too late. However, now i wanted to know how much it _would have_ cost to rebook my ticket to New Zealand. This was somehow very important to me as I wanted to know if I had cost to rebook my flight (which was by the way departing 0:30). So I went back out of the transit zone and went to the airline counter. When I tried to explain the employee my concern, she asked for my passport. However, I had had to leave it at the passport control to be able to get out of the transit zone. So after 5 minutes of explaining, she accepted to just tell me the price for a rebooking I was not going to perform anyway: 19xx€ (I don't remember exactly). And 66€ rebooking charges, that's understood.
 * So I was finally happy to know that I was not doing the worst thing by going to Bali :-)
 
-h4. Side stories:
+### Side stories:
 
 * You cannot use Google in China. I have read it in the media but you only really get what this means when you get in serious trouble because of it. That said, all confirmation Emails, flight tickets and ETA status emails went straight to my Gmail account, where the 'G' stands for Google - you see. My fellow was luckily prepared to that kind of problem: He show me how to use an SSH tunnel to a european server and configure it as a proxy. Fortunately, I am an IT nerd, so I both understood and had access to such a server.
 ** That said, it appears that the Gmail mobile app can synchronize some emails. This was the case for my ETA confirmation, for example.
