@@ -8,6 +8,7 @@
 # Site settings
 title: A traveler's messages to the world
 email: yamass@gmail.com
+phone: +62-0812-3694 1344
 description: > # this means to ignore newlines until "baseurl:"
   This is a blog about my world trip to New Zealand, Australia, Indonesia, Sri Lanka and the United States. (And one day in Turkey, acutally.)
 baseurl: "" # the subpath of your site, e.g. /blog
